@@ -5,7 +5,7 @@ read -r -p "Do you want to update Douyin_TikTok_Download_API? [y/n] " input
 case $input in
     [yY])
         # Navigate to the project directory or exit if it fails
-        cd /www/wwwroot/Douyin_TikTok_Download_API || { echo "The directory does not exist."; exit 1; }
+        cd /www/wwwroot/video_parser_api || { echo "The directory does not exist."; exit 1; }
 
         # Pull the latest changes from the repository
         git pull

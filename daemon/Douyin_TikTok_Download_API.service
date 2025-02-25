@@ -6,8 +6,8 @@ After=network.target
 Type=simple
 User=root
 Group=root
-WorkingDirectory=/www/wwwroot/Douyin_TikTok_Download_API
-ExecStart=/www/wwwroot/Douyin_TikTok_Download_API/venv/bin/python3 start.py
+WorkingDirectory=/www/wwwroot/video_parser_api
+ExecStart=/www/wwwroot/video_parser_api/venv/bin/python3 start.py
 Restart=always
 
 [Install]
